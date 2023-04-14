@@ -22,8 +22,8 @@ public class SetupClass {
         options.addArguments("incognito");
 
 
-        driver = new RemoteWebDriver(new URL("http://172.16.14.23:4444/wd/hub"),options);
-        //driver = new ChromeDriver(options);
+        //driver = new RemoteWebDriver(new URL("http://172.16.14.23:4444/wd/hub"),options);
+        driver = new ChromeDriver(options);
         driver.manage().window().maximize();
 
     }

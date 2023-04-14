@@ -17,8 +17,8 @@ public class MyStepdefs {
     }
 
 
-    @Given("I open authotification")
-    public void iOpenAuthotification() {
+    @Given("I open authentication")
+    public void iOpenAuthentification() {
         driver.get("https://www.saucedemo.com");
     }
 
